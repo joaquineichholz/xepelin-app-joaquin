@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import "./../css/Login.css";
 import { Link } from "react-router-dom";
 
@@ -13,10 +11,6 @@ export default function Login() {
         return true
     }
     return false;
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
   }
 
   return (
